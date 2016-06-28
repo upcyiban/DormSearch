@@ -8,10 +8,7 @@
  * Controller of the frontendApp
  */
 angular.module('frontendApp')
-  .controller('ResultCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ResultCtrl', function ($scope, $rootScope) {
+    $scope.result1 = $rootScope.message;
+    console.log($rootScope.message);
   });
