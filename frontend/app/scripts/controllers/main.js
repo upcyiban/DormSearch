@@ -14,10 +14,14 @@ angular.module('frontendApp')
       var number = $scope.number;
       $http.get('http://yb.upc.edu.cn:8087/getdorm?name='+name+'&number='+number).then(function (response) {
         console.log(response.data);
-        $rootScope.message = response.data;
-        $location.url('result');
+        if ('code' in response.data){
+          //fail
+          $('.fail-message').show();
+        }else {
+          $rootScope.message = response.data[1];
+          $location.url('result');
+        }
       });
-    }
-
+    };
 
   });

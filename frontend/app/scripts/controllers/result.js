@@ -9,6 +9,5 @@
  */
 angular.module('frontendApp')
   .controller('ResultCtrl', function ($scope, $rootScope) {
-    $scope.result1 = $rootScope.message;
-    console.log($rootScope.message);
+    $scope.resultMessage = $rootScope.message;
   });
