@@ -9,6 +9,7 @@
  */
 angular.module('frontendApp')
   .controller('MainCtrl', function ($scope, $http, $location, $rootScope) {
+    switchNav('mainpage');
     $scope.search = function () {
       var name = $scope.name;
       var number = $scope.number;
