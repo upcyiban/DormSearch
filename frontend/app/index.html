@@ -15,16 +15,17 @@
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 </head>
-<body ng-app="frontendApp">
+<body ng-app="frontendApp" class="bg">
 <!--[if lte IE 8]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
   your browser</a> to improve your experience.</p>
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<div class="header">
-  <div class="navbar navbar-default" role="navigation">
-    <div class="container">
+
+<div class="header" style="border-bottom: none">
+  <div class="navbar navbar-default " role="navigation" style="background: none;border: none">
+    <div class="container" >
       <div class="navbar-header">
 
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
@@ -53,9 +54,9 @@
   <div ng-view=""></div>
 </div>
 
-<footer class="footer">
+<footer class="footer" style="border-top: none;color: aliceblue">
   <div class="container">
-    <p style="text-align: center"><span class="glyphicon glyphicon-heart"></span>UPC易班 <a href="http://yb.upc.edu.cn/blog">技术部</a></p>
+    <p style="text-align: center"><span class="glyphicon glyphicon-heart"></span>UPC易班 <a href="http://yb.upc.edu.cn/blog"  style="color: aliceblue">技术部</a></p>
   </div>
 </footer>
 
