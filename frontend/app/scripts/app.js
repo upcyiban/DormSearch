@@ -34,7 +34,17 @@ angular
         controller: 'ResultCtrl',
         controllerAs: 'result'
       })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
+      })
       .otherwise({
         redirectTo: '/'
       });
   });
+
+function switchNav(navName) {
+  $('.nav > li').removeClass('active');
+  $('.'+navName).addClass('active');
+}
