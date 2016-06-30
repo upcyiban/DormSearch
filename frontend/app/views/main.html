@@ -3,12 +3,13 @@
   <p>请输入姓名及学号</p>
   <form>
     <div class="form-group">
-      <label for="name">姓名</label>
-      <input id="name" ng-model="name" class="form-control test" >
+      <label for="name"><p class="lead">姓名</p></label>
+      <input id="name" ng-model="name" class="test"  value="姓名">
     </div>
+    <br>
     <div class="form-group">
-      <label for="number">学号</label>
-      <input id="number" ng-model="number" class="form-control" >
+      <label for="number"><p class="lead">学号</p></label>
+      <input id="number" ng-model="number" class="test" >
     </div>
   </form>
   <p class="fail-message" style="color: red;display: none">查询结果为空,请核对姓名学号</p>
