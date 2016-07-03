@@ -1,8 +1,8 @@
-package cn.edu.upc.yb.dormsearch.controller;
+package cn.edu.upc.yb.integrate.dormsearch.controller;
 
-import cn.edu.upc.yb.dormsearch.model.DormList;
-import cn.edu.upc.yb.dormsearch.model.DormListDao;
-import cn.edu.upc.yb.dormsearch.model.ErrorJsonMsg;
+import cn.edu.upc.yb.integrate.dormsearch.model.DormList;
+import cn.edu.upc.yb.integrate.dormsearch.model.DormListDao;
+import cn.edu.upc.yb.integrate.dormsearch.model.ErrorJsonMsg;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

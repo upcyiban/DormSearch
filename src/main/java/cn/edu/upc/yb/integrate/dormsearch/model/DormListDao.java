@@ -1,4 +1,4 @@
-package cn.edu.upc.yb.dormsearch.model;
+package cn.edu.upc.yb.integrate.dormsearch.model;
 
 import org.springframework.data.repository.CrudRepository;
 
