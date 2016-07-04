@@ -83,12 +83,13 @@ body {
   }
 }
 .bg{
+  background-size: 100% ;
   background-image: url("../images/bg.jpg");
 }
 .for {
   background: #2b2b36;
   position: relative;
-  width: 80%;
+  width: 100%;
   margin: 3% auto 0 auto;
   text-align: center;
   border-radius: 15px;
