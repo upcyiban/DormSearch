@@ -1,15 +1,12 @@
-<div class="jumbotron form">
-  <h2>欢迎使用宿舍查询工具</h2>
-  <p>请输入姓名及学号</p>
+<div class="jumbotron for">
+  <img src="images/touxiang.png" alt="" style="margin: 2em 0 0;">
   <form>
-    <div class="form-group">
-      <label for="name"><p class="lead">姓名</p></label>
-      <input id="name" ng-model="name" class="test"  value="姓名">
+    <div  class="form-group">
+      <input  type="text" id="name"  class="test"  value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}">
     </div>
     <br>
     <div class="form-group">
-      <label for="number"><p class="lead">学号</p></label>
-      <input id="number" ng-model="number" class="test" >
+      <input  type="text" id="number" value="学号" class="test"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '学号';}">
     </div>
   </form>
   <p class="fail-message" style="color: red;display: none">查询结果为空,请核对姓名学号</p>
