@@ -107,5 +107,65 @@ body {
   border: none;
   font-weight: 100;
   border-bottom: 1px solid#484856;
+  font-family: white;
 }
+/*about*/
+.about h3{
+  font-size:35px;
+  padding-bottom:20px;
+  color:#000;
+  font-weight:600;
+}
+.about h6{
+  font-size:15px;
+  color:#000;
+  font-weight:300;
+  width:55%;
+  margin:0 auto;
+  line-height:30px;
+}
+.about-grids{
+  margin-top:75px;
+}
+.about-grids h4{
+  color:#000;
+  /*--agileits--*/
+  font-size:17px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+.aboutimage{
+  border:8px solid #7BC475;
+  border-radius: 50%;
+  padding: 0;
+}
+.about-grids p{
+  line-height:30px;
+  font-size:14px;
+  color:#000;
+}
+.about-grid1,.about-grid3{
+  width:60%;
+  text-align:right;
+}
+.about-grid1{
+  margin-bottom:75px;
+}
+.about-grid1 h4,.about-grid3 h4{
+  text-align:right;
+}
+.about-grid2{
+  width:60%;
+  margin:0px 0px 75px 455px;
+  text-align:left;
+}
+.about-grid2 h4{
+  text-align:left;
+}
+
+.about-grid4{
+  width:60%;
+  margin:0px 0px 30px 455px;
+}
+/*end about*/
 
