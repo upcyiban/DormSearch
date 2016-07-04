@@ -1,12 +1,12 @@
-<div class="jumbotron form">
+<div class="jumbotron for">
   <img src="images/touxiang.png" alt="" style="margin: 2em 0 0;">
   <form>
     <div  class="form-group">
-      <input id="name" ng-model="name" class="test"  value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}">
+      <input  type="text" id="name"  class="test"  value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}">
     </div>
     <br>
     <div class="form-group">
-      <input id="number" ng-model="number" class="test" value="学号" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '学号';}">
+      <input  type="text" id="number" value="学号" class="test"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '学号';}">
     </div>
   </form>
   <p class="fail-message" style="color: red;display: none">查询结果为空,请核对姓名学号</p>
