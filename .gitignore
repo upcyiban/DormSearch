@@ -7,3 +7,4 @@
 .idea
 frontdeploy.sh
 *.iml
+deploy.py
