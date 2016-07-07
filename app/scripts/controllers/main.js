@@ -14,7 +14,7 @@ angular.module('frontendApp')
     $scope.search = function () {
       var name = $scope.name;
       var number = $scope.number;
-      $http.get('http://yb.upc.edu.cn:8087/getdorm?name='+name+'&number='+number).then(function (response) {
+      $http.get('http://yb.upc.edu.cn:8087/dorm/getdorm?name='+name+'&number='+number).then(function (response) {
         if ('code' in response.data){
           $('.fail-message').show();
         }else {

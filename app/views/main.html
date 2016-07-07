@@ -3,11 +3,11 @@
   <br><br><br>
   <form>
     <div  class="form-group">
-      <input  type="text" id="name"  class="test"  value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}">
+      <input ng-model="name" type="text" id="name"  class="test"  value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}">
     </div>
     <br>
     <div class="form-group">
-      <input  type="text" id="number" value="学号" class="test"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '学号';}">
+      <input ng-model="number" type="text" id="number" value="学号" class="test"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '学号';}">
     </div>
   </form>
   <br><br><br>
